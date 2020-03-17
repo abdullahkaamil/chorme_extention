@@ -4,13 +4,16 @@
     "version": "0.1",
     "author": "Abdullah Kaamil",
     "manifest_version": 2,
+    "web_accessible_resources": [
+        "src/youtubedl.js"
+    ],
     "content_scripts": [
         {
             "matches": [
                 "https://www.youtube.com/watch*"
             ],
             "js": [
-                "src/youtubedl.js"
+                "src/loader.js"
             ]
         }
     ]
