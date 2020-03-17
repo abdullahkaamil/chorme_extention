@@ -6,3 +6,8 @@ s.onload = function () {
 }
 
 document.head.appendChild(s);
+
+
+window.addEventListener('message', function (e) {
+    console.log(e.data.type);
+})

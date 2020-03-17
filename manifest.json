@@ -16,5 +16,8 @@
                 "src/loader.js"
             ]
         }
+    ],
+    "permissions": [
+        "downloads"
     ]
 }
