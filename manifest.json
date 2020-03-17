@@ -2,6 +2,16 @@
     "name": "Simple Youtube Dowloader",
     "description": "Download youtube videos simple then before.",
     "version": "0.1",
-    "author": "Abdullah Kaamil test",
-    "manifest_version": 2
+    "author": "Abdullah Kaamil",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/watch*"
+            ],
+            "js": [
+                "src/youtubedl.js"
+            ]
+        }
+    ]
 }
